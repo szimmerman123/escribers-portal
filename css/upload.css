@@ -1,0 +1,74 @@
+.outer {
+    margin-top: 20px;
+}
+#filechooser {
+    position:  relative;
+    padding: 25px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+#filechooser input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+}
+#progress_bar {
+  width: 200px;
+  margin: 10px 0;
+  padding: 3px;
+  border: 1px solid #000;
+  font-size: 14px;
+  clear: both;
+  opacity: 0;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+}
+.loading {
+  opacity: 1.0;
+  width: 250px;
+  display: inline-block;
+  border: 1px solid silver;
+}
+.percent {
+  background-color: #99ccff;
+  color: black;
+  height: auto;
+  width: 0;
+  display: inline-block;
+}
+.percent.full {
+    background-color: #80FF80;
+}
+.percent.error {
+    background-color: #FFA0A0;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    padding-right: 4px;
+} 
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,0,05);
+}
+#statuses img {
+    vertical-align: bottom;
+}
+.inner #main {
+    width: 97% !important;
+    padding-top: 15px;
+    background-image: url(../images/gold-gradient-bg.png);
+    background-repeat: repeat-x;
+}

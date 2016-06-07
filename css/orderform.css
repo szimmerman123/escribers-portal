@@ -1,0 +1,118 @@
+.hideme {display:none;}
+.orderform .two-columns{
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: black;
+    background-image: url(../images/gold-gradient-bg.png);
+    background-repeat: repeat-x;
+}
+.casedetails {
+    padding: 5px 0;
+    height: 60px;
+}
+.orderform .detailscolumn {
+    float: left;
+    padding-right: 25px;
+    width: 350px;
+}
+.orderform .detailscolumn input[type=text] {
+    width: 100%;
+}
+.orderform p{
+    margin-bottom: 8px;
+}
+.orderform input[type="text"], 
+.orderform input[type="password"],
+.orderform select {
+    width: 240px;
+}
+select#courttype {
+    width: 290px;
+}
+.orderform #specialnotes {
+    width: 600px;
+    height: 100px;
+}
+.orderform table {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.orderform th, .orderform td {
+    padding: 3px 6px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.orderform th {
+    font-weight: bold;
+}
+.orderform a {
+    color: #0000A0;
+}
+#orderformsubmit {
+    border: 1px solid gray;
+    background-color: transparent;
+}
+#orderformsubmit:hover {
+    border-color: black;
+    background-color: silver;
+}
+#datepicker {
+    background-color: #CCCCCC;
+    padding: 3px;
+    cursor: pointer;
+}
+#datepicker .dpTitleText{
+    text-align: center;
+}
+#datepicker button {
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+}
+#datepicker .dpTDHover, #datepicker .dpTD, #datepicker .dpDayHighlightTD {
+    width: 14%;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+}
+#datepicker .dpTDHover, #datepicker .dpDayHighlightTD {
+    border: 1px solid white;
+}
+.success {
+    color: #DD0000; font-weight: bold; font-size: 14px; padding: 0 0 10px;    
+}
+#sendorderform_errorloc {
+    color: red;
+}
+#sendorderform_errorloc li {
+    list-style: none;
+}
+#uploadform {
+    /* background-color: white; */ 
+    width: 400px; 
+    padding: 15px;
+}
+#paypalform td, #paypalform table {
+    border:none;
+}
+#casetable th, #casetable td {
+    padding: 2px 3px;
+}
+#casetable input {
+    width: 96%;
+}
+#casetable select {
+    width: 100px;
+}
+#casetable input.wideinput {
+    width: 130px;
+}
+#casetable td.datecol {min-width: 160px;}
+#casetable .monthselect, #appealdetails .monthselect {width: 56px;}
+#casetable .dayselect, #appealdetails .dayselect {width: 45px;}
+#casetable .yearselect, #appealdetails .yearselect {width: 58px;}
+#form638form span.exemptinput {display: inline-block; width: 110px;}
+form#appealdocket label {display: inline-block; width: 120px; text-align: right;}
+#appealdetails label {width: 180px; display: inline-block;}
+div.content_result {width: 920px;}
+#appearances textarea {width: 280px; height: 100px;}

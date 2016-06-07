@@ -1,0 +1,337 @@
+/* General typography */
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    line-height: 17px;
+}
+
+a {
+    color: #d1bd43;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #d1bd43;
+}
+
+
+.float-left { 
+    float: left;
+    margin: 0 15px 5px 0;
+}
+
+th.right, td.right {
+    text-align: right;
+}
+
+/* Main page */
+
+#wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#header {
+	height: 110px;
+	/* border-bottom: 1px solid black; */
+}
+
+    #header h1 {
+        float: left;
+    }
+    
+    #main-menu {
+        float: right;
+        margin-top: 70px;
+    }
+    
+    #main-menu li {
+	float: left;
+	list-style: none;
+	font-family: "Century Gothic", "Futura", Arial, Helvetica, sans-serif; 
+	font-size: 14px;
+	margin-right: 4px;
+	color: #D1BD43;
+    }
+    
+    #main-menu a.current {
+        color: #000;
+    }
+
+
+/* Content */
+
+#content {
+    /* padding-top: 15px; */
+    zoom: 1; /* IE wonder fix!!! */
+}
+
+#content .slogan {
+     text-align: center; 
+     font-family: Georgia, serif;
+     font-style: italic; 
+     font-weight: bold; 
+     padding: 15px 0 15px 0; 
+     margin-bottom: 15px;
+     font-size: 15px; 
+     color: #7C6D24; 
+     background-color: #D1BD43;
+}
+    
+.download-brochure {
+    text-indent: -100000px;
+    width: 147px;
+    height: 54px;
+    background: url(../images/download-brochure.png) no-repeat;
+    display: block;
+}    
+    
+.download-brochure:hover {
+    background: url(../images/download-brochure-on.png) no-repeat;
+}
+    
+/* Main page  */
+
+.front #sidebar {
+    background: url(../images/gold-gradient-bg.png) repeat-x;
+    background-position: 0 210px;
+    padding: 0 15px;
+    margin-right: 20px;
+    width: 235px;
+    float: left;
+} 
+
+    .front #sidebar ul { 
+        background: #fff;
+        padding: 8px;
+        margin-bottom: 15px;
+        height: 65px;
+        overflow: auto;
+    }
+    
+    .front #sidebar li { 
+        list-style: none outside; 
+        font-size: 9px;
+        line-height: 12px;
+        margin-bottom: 5px;
+    }
+    
+    .front #sidebar h2 {
+        font-family: Georgia, "Times New Roman", "Times", serif;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 10px 0 10px 0;
+    }
+    
+    .front #sidebar p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+    
+    .front #sidebar a {
+        color: #7c6d24;
+    }
+
+.front #main {
+	width: 665px;
+	float: left;
+}
+    .front #main h2 {
+        color: #7c6d24;
+        font-size: 15px;
+        line-height: 18px;
+        margin: 0 0 10px 0;
+    }
+    
+    .front #main ul, .front #main p {
+        margin-bottom: 15px;
+    }
+
+    .front #main li {
+        /* list-style: none; */
+        margin: 0 0 5px 15px;
+        font-size: 11px;
+    }
+
+    .front #main .button {
+        padding: 10px 20px;
+        background-color: khaki;
+        border: 1px solid olive;
+        border-radius: 10px;
+        color: olive;
+        font-size: 14px;
+    }
+    
+    .front #block-motto {
+        background: #000 url(../images/transcriber-typing.png) no-repeat 0 0;
+        padding: 110px 20px 15px 15px;
+        margin-left: -15px;
+        margin-bottom: 25px;
+        font: 17px/24px Georgia, "Times New Roman", "Times", serif;
+        color: #fff;
+        width: 230px;
+    }
+    
+    .front #block-motto p { 
+        margin-bottom: 0px; 
+        font-family: "Century Gothic", "Futura", Arial, Helvetica, sans-serif; 
+        font-weight: bold; 
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .front #block-info {
+        width: auto;
+        padding-right: 25px;
+        float: left;
+        /* border-right: 1px solid #777; */
+    }
+    
+    .front .block-featured-transcriber {
+        background: url(../images/gold-gradient-bg.png) repeat-x;
+    	width: 295px;
+    	padding: 15px;
+    	float: left;
+    }
+    
+    .block-featured-transcriber {
+        border: 2px solid olive;
+        min-height: 245px;
+    }
+    .block-white-box {
+        width: 295px; 
+        border: 2px solid olive; 
+        padding: 15px;
+        min-height: 230px;
+    }
+    .block-white-box h2 {
+        font-weight: bold;
+    }    
+
+    .front .block-featured-transcriber h2 {
+        color: #222;
+        font-weight: bold;
+    }
+    .front .block-featured-transcriber a {
+        color: #807000;
+    }
+    
+    .front .block-about-us {
+        background: url(../images/gold-gradient-bg.png) repeat-x;
+    	width: 295px;
+    	padding: 15px;
+    	float: left;
+        width: 635px; 
+        min-height: inherit; 
+        margin-bottom: 15px;        
+    }
+    
+/* Inner page */
+
+.gradient {
+    background-image: url(../images/gold-gradient-bg.png);
+    background-repeat: repeat-x;
+}
+
+#content p {
+    margin-bottom: 25px;
+}
+
+.inner .title {
+    font: 24px/24px Georgia, "Times New Roman", "Times", serif;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #d1bd43;
+ }      
+    
+.inner #main {
+    width: 660px;
+    padding: 0 15px;
+    float: left;
+    font-size: 12px;
+    color: #777;
+} 
+
+    .inner #main h3 {
+        color: #725f00;
+        font-weight: bold;
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+    
+    .inner #main h4 {
+        font-weight: bold;
+        display: inline;
+    }
+    
+    .inner #main li {
+        margin-left: 25px;
+    }
+    
+    .inner .two-columns .column {
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
+        list-style: inside;
+    }
+
+ 
+.inner #sidebar {
+    width: 260px;
+    float: left;
+}
+    
+    .inner #sidebar img, .inner #sidebar a {
+        float: right;
+    }
+    
+    .inner #sidebar .download-brochure {
+        margin-top: 20px;
+    }
+ 
+#exemptclient input {
+    width: 250px;
+}   
+#exemptclient label {
+    display: inline-block;
+    padding-right: 4px;
+    width: 180px;
+    text-align: right;
+}
+#exemptclient p {
+    margin-bottom: 5px;
+}
+ 
+/* Footer */
+
+#footer, #footer a {
+	color: #777;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+#footer-menu {
+	width: 715px;
+	margin: auto;
+    }
+    
+    #footer-menu li {
+        list-style: none;
+        float: left;
+        margin-left: 5px;
+    }
+    
+    #copyright {
+        clear: both;
+    }
+
