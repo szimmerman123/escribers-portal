@@ -24,7 +24,7 @@ body {
 
         <div class="col-md-12">
 
-            <form class="form-signin" method="post" action="?cmd=signup">
+            <form class="form-signin" method="post" action="signup">
                 <h4 class="form-signin-heading">Enter your email address below:</h4>
                 <label for="inputEmailAddress" class="sr-only">Email Address</label>
                 <input type="text" name="inputEmailAddress" class="form-control" placeholder="Email Address" required autofocus>

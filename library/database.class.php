@@ -149,17 +149,19 @@ class Database {
                                           "' . mysqli_real_escape_string($this->connection, $paymentprofileid) . '")' );
     }
     
-    function check_login($username, $password) {
-        $res = $this->connection->query('SELECT * fROM clientuser WHERE username = "' . mysqli_real_escape_string($this->connection, $username) . '" LIMIT 1');
-        if ($res->num_rows == 0)
-            return false;
-        $user = $res->fetch_assoc();
-        $hash = hash('sha256', $user['salt'] . $password . $user['salt']);
-        if ($hash == $user['password']) 
-            return $user;
-        else
-            return false;
-    }
+  /**
+ *   function check_login($username, $password) {
+ *         $res = $this->connection->query('SELECT * fROM clientuser WHERE username = "' . mysqli_real_escape_string($this->connection, $username) . '" LIMIT 1');
+ *         if ($res->num_rows == 0)
+ *             return false;
+ *         $user = $res->fetch_assoc();
+ *         $hash = hash('sha256', $user['salt'] . $password . $user['salt']);
+ *         if ($hash == $user['password']) 
+ *             return $user;
+ *         else
+ *             return false;
+ *     }
+ */
     
     function change_password($userid, $newpass) {
         return $this->connection->query('UPDATE clientuser SET password = "' . mysqli_real_escape_string($this->connection, $newpass) . '" WHERE id=' . intval($userid));

@@ -1,10 +1,12 @@
 <?php
-class session_config {
-    public static $dbhost = 'localhost';
-    public static $dbuser = "dan35_tab";
-    public static $dbpass = "y0s3f32"; 
-    public static $dbname = "dan35_tabservices";
-}
+/**
+ * class session_config {
+ *     public static $dbhost = 'localhost';
+ *     public static $dbuser = "dan35_tab";
+ *     public static $dbpass = "y0s3f32"; 
+ *     public static $dbname = "dan35_tabservices";
+ * }
+ */
 
 class session {
 
